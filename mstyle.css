@@ -1,0 +1,451 @@
+.col{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.mainwatchdiv{
+    margin: 10px;
+}
+.mainwatchdiv:hover{
+    box-shadow: 0 0 12px #00081C;
+}
+.watchdiv:link,.watchdiv:visited,.watchdiv:active,.watchdiv:hover{
+    color: #00081C;
+    text-decoration: none;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    margin-top: 15px;
+}
+.div1{
+    background-color: #00081C;
+    color: white;
+    width: 18%;
+    text-align: center;
+    padding: 3px;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+.div2{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 1.3rem;
+}
+.div3{    
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.15px;
+    font-weight: normal;
+}
+.mwatchdiv {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('mwatchimg1.jpg');
+    transition: background-image 1s ease-in-out;
+    animation: image-animation-100 10s infinite;
+  }
+  
+  /* .mwatchdiv:hover {
+    animation: image-animation-9 6s infinite;
+  } */
+  
+  @keyframes image-animation-100 {
+    0% {
+      background-image: url('mwatchimg1.jpg');
+    }
+    25% {
+      background-image: url('mwatchimg2.jpg');
+    }
+    50% {
+      background-image: url('mwatchimg3.jpg');
+    }
+    75% {
+      background-image: url('mwatchimg4.jpg');
+    }
+    100% {
+      background-image: url('mwatchimg1.jpg');
+    }    
+  }
+
+  .mwatches{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mimgdiv-1 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw1.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mimgdiv-1:hover {
+    animation: image-animation-9 6s infinite;
+  }
+  
+  @keyframes image-animation-9 {
+    0% {
+      background-image: url('mw1.jpg');
+    }
+    25% {
+      background-image: url('mw1-2.jpg');
+    }
+    50% {
+      background-image: url('mw1-3.jpg');
+    }
+    75% {
+      background-image: url('mw1-4.jpg');
+    }
+    100% {
+      background-image: url('mw1.jpg');
+    }
+  }
+
+  .mimgdiv-2 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw2.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mimgdiv-2:hover {
+    animation: image-animation-10 6s infinite;
+  }
+  
+  @keyframes image-animation-10 {
+    0% {
+      background-image: url('mw2.jpg');
+    }
+    25% {
+      background-image: url('mw2-2.jpg');
+    }
+    50% {
+      background-image: url('mw2-3.jpg');
+    }
+    75% {
+      background-image: url('mw2-4.jpg');
+    }
+    100% {
+      background-image: url('mw2.jpg');
+    }
+  }
+  
+  .mimgdiv-3 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw3.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mimgdiv-3:hover {
+    animation: image-animation-11 6s infinite;
+  }
+  
+  @keyframes image-animation-11 {
+    0% {
+      background-image: url('mw3.jpg');
+    }
+    25% {
+      background-image: url('mw3-2.jpg');
+    }
+    50% {
+      background-image: url('mw3-3.jpg');
+    }
+    75% {
+      background-image: url('mw3-4.jpg');
+    }
+    100% {
+      background-image: url('mw3.jpg');
+    }
+  }  
+  
+  .mimgdiv-4 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw4.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mimgdiv-4:hover {
+    animation: image-animation-12 6s infinite;
+  }
+  
+  @keyframes image-animation-12 {
+    0% {
+      background-image: url('mw4.jpg');
+    }
+    25% {
+      background-image: url('mw4-2.jpg');
+    }
+    50% {
+      background-image: url('mw4-3.jpg');
+    }
+    75% {
+      background-image: url('mw4-4.jpg');
+    }
+    100% {
+      background-image: url('mw4.jpg');
+    }
+  }
+  .mw1 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw5.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw1:hover {
+    animation: image-animation-1 6s infinite;
+  }
+  
+  @keyframes image-animation-1 {
+    0% {
+      background-image: url('mw5.jpg');
+    }
+    25% {
+      background-image: url('mw5-2.jpg');
+    }
+    50% {
+      background-image: url('mw5-3.jpg');
+    }
+    75% {
+      background-image: url('mw5-4.jpg');
+    }
+    100% {
+      background-image: url('mw5.jpg');
+    }
+  }
+
+  .mw2 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw6.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw2:hover {
+    animation: image-animation-2 6s infinite;
+  }
+  
+  @keyframes image-animation-2 {
+    0% {
+      background-image: url('mw6.jpg');
+    }
+    25% {
+      background-image: url('mw6-2.jpg');
+    }
+    50% {
+      background-image: url('mw6-3.jpg');
+    }
+    75% {
+      background-image: url('mw6-4.jpg');
+    }
+    100% {
+      background-image: url('mw6.jpg');
+    }
+  }
+
+  .mw3 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw7.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw3:hover {
+    animation: image-animation-3 6s infinite;
+  }
+  
+  @keyframes image-animation-3 {
+    0% {
+      background-image: url('mw7.jpg');
+    }
+    25% {
+      background-image: url('mw7-2.jpg');
+    }
+    50% {
+      background-image: url('mw7-3.jpg');
+    }
+    75% {
+      background-image: url('mw7-4.jpg');
+    }
+    100% {
+      background-image: url('mw7.jpg');
+    }
+  }
+
+  .mw4 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw8.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw4:hover {
+    animation: image-animation-4 6s infinite;
+  }
+  
+  @keyframes image-animation-4 {
+    0% {
+      background-image: url('mw8.jpg');
+    }
+    25% {
+      background-image: url('mw8-2.jpg');
+    }
+    50% {
+      background-image: url('mw8-3.jpg');
+    }
+    75% {
+      background-image: url('mw8-4.jpg');
+    }
+    100% {
+      background-image: url('mw8.jpg');
+    }
+  }
+
+  .mw5 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw9.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw5:hover {
+    animation: image-animation-5 6s infinite;
+  }
+  
+  @keyframes image-animation-5 {
+    0% {
+      background-image: url('mw9.jpg');
+    }
+    25% {
+      background-image: url('mw9-2.jpg');
+    }
+    50% {
+      background-image: url('mw9-3.jpg');
+    }
+    75% {
+      background-image: url('mw9-4.jpg');
+    }
+    100% {
+      background-image: url('mw9.jpg');
+    }
+  }
+
+  .mw6 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw10.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw6:hover {
+    animation: image-animation-6 6s infinite;
+  }
+  
+  @keyframes image-animation-6 {
+    0% {
+      background-image: url('mw10.jpg');
+    }
+    25% {
+      background-image: url('mw10-2.jpg');
+    }
+    50% {
+      background-image: url('mw10-3.jpg');
+    }
+    75% {
+      background-image: url('mw10-4.jpg');
+    }
+    100% {
+      background-image: url('mw10.jpg');
+    }
+  }
+
+  .mw7 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw11.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw7:hover {
+    animation: image-animation-7 6s infinite;
+  }
+  
+  @keyframes image-animation-7 {
+    0% {
+      background-image: url('mw11.jpg');
+    }
+    25% {
+      background-image: url('mw11-2.jpg');
+    }
+    50% {
+      background-image: url('mw11-3.jpg');
+    }
+    75% {
+      background-image: url('mw11-4.jpg');
+    }
+    100% {
+      background-image: url('mw11.jpg');
+    }
+  }
+
+
+  .mw8 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('mw12.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .mw8:hover {
+    animation: image-animation-8 6s infinite;
+  }
+  
+  @keyframes image-animation-8 {
+    0% {
+      background-image: url('mw12.jpg');
+    }
+    25% {
+      background-image: url('mw12-2.jpg');
+    }
+    50% {
+      background-image: url('mw12-3.jpg');
+    }
+    75% {
+      background-image: url('mw12-4.jpg');
+    }
+    100% {
+      background-image: url('mw12.jpg');
+    }
+  }
+
+
