@@ -1,0 +1,415 @@
+.imgdiv-1 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('lwatch1.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .imgdiv-1:hover {
+    animation: image-animation-1 6s infinite;
+  }
+  
+  @keyframes image-animation-1 {
+    0% {
+      background-image: url('lwatch1.jpg');
+    }
+    25% {
+      background-image: url('lwatch1-2.jpg');
+    }
+    50% {
+      background-image: url('lwatch1-3.jpg');
+    }
+    75% {
+      background-image: url('lwatch1-4.jpg');
+    }
+    100% {
+      background-image: url('lwatch1.jpg');
+    }
+  }
+
+  .imgdiv-2 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('lwatch2.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .imgdiv-2:hover {
+    animation: image-animation-2 6s infinite;
+  }
+  
+  @keyframes image-animation-2 {
+    0% {
+      background-image: url('lwatch2.jpg');
+    }
+    25% {
+      background-image: url('lwatch2-2.jpg');
+    }
+    50% {
+      background-image: url('lwatch2-3.jpg');
+    }
+    75% {
+      background-image: url('lwatch2-4.jpg');
+    }
+    100% {
+      background-image: url('lwatch2.jpg');
+    }
+  }
+  
+  .imgdiv-3 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('lwatch3.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .imgdiv-3:hover {
+    animation: image-animation-3 6s infinite;
+  }
+  
+  @keyframes image-animation-3 {
+    0% {
+      background-image: url('lwatch3.jpg');
+    }
+    25% {
+      background-image: url('lwatch3-2.jpg');
+    }
+    50% {
+      background-image: url('lwatch3-3.jpg');
+    }
+    75% {
+      background-image: url('lwatch3-4.jpg');
+    }
+    100% {
+      background-image: url('lwatch3.jpg');
+    }
+  }  
+  
+  .imgdiv-4 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('lwatch4.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .imgdiv-4:hover {
+    animation: image-animation-4 6s infinite;
+  }
+  
+  @keyframes image-animation-4 {
+    0% {
+      background-image: url('lwatch4.jpg');
+    }
+    25% {
+      background-image: url('lwatch4-2.jpg');
+    }
+    50% {
+      background-image: url('lwatch4-3.jpg');
+    }
+    75% {
+      background-image: url('lwatch4-4.jpg');
+    }
+    100% {
+      background-image: url('lwatch4.jpg');
+    }
+  }
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.mainwatchdiv{
+    margin: 10px;
+}
+.mainwatchdiv:hover{
+    box-shadow: 0 0 12px #00081C;
+}
+.watchdiv:link,.watchdiv:visited,.watchdiv:active,.watchdiv:hover{
+    color: #00081C;
+    text-decoration: none;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    margin-top: 15px;
+}
+.div1{
+    background-color: #00081C;
+    color: white;
+    width: 18%;
+    text-align: center;
+    padding: 3px;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+.div2{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 1.3rem;
+}
+.div3{    
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.15px;
+    font-weight: normal;
+}
+.ww1 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww1.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww1:hover {
+    animation: image-animation-1 6s infinite;
+  }
+  
+  @keyframes image-animation-1 {
+    0% {
+      background-image: url('ww1.jpg');
+    }
+    25% {
+      background-image: url('ww1-2.jpg');
+    }
+    50% {
+      background-image: url('ww1-3.jpg');
+    }
+    75% {
+      background-image: url('ww1-4.jpg');
+    }
+    100% {
+      background-image: url('ww1.jpg');
+    }
+  }
+
+  .ww2 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww2.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww2:hover {
+    animation: image-animation-2 6s infinite;
+  }
+  
+  @keyframes image-animation-2 {
+    0% {
+      background-image: url('ww2.jpg');
+    }
+    25% {
+      background-image: url('ww2-2.jpg');
+    }
+    50% {
+      background-image: url('ww2-3.jpg');
+    }
+    75% {
+      background-image: url('ww2-4.jpg');
+    }
+    100% {
+      background-image: url('ww2.jpg');
+    }
+  }
+
+  .ww3 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww3.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww3:hover {
+    animation: image-animation-3 6s infinite;
+  }
+  
+  @keyframes image-animation-3 {
+    0% {
+      background-image: url('ww3.jpg');
+    }
+    25% {
+      background-image: url('ww3-2.jpg');
+    }
+    50% {
+      background-image: url('ww3-3.jpg');
+    }
+    75% {
+      background-image: url('ww3-4.jpg');
+    }
+    100% {
+      background-image: url('ww3.jpg');
+    }
+  }
+
+  .ww4 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww4.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww4:hover {
+    animation: image-animation-4 6s infinite;
+  }
+  
+  @keyframes image-animation-4 {
+    0% {
+      background-image: url('ww4.jpg');
+    }
+    25% {
+      background-image: url('ww4-2.jpg');
+    }
+    50% {
+      background-image: url('ww4-3.jpg');
+    }
+    75% {
+      background-image: url('ww4-4.jpg');
+    }
+    100% {
+      background-image: url('ww4.jpg');
+    }
+  }
+
+  .ww5 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww5.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww5:hover {
+    animation: image-animation-5 6s infinite;
+  }
+  
+  @keyframes image-animation-5 {
+    0% {
+      background-image: url('ww5.jpg');
+    }
+    25% {
+      background-image: url('ww5-2.jpg');
+    }
+    50% {
+      background-image: url('ww5-3.jpg');
+    }
+    75% {
+      background-image: url('ww5-4.jpg');
+    }
+    100% {
+      background-image: url('ww5.jpg');
+    }
+  }
+
+  .ww6 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww6.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww6:hover {
+    animation: image-animation-6 6s infinite;
+  }
+  
+  @keyframes image-animation-6 {
+    0% {
+      background-image: url('ww6.jpg');
+    }
+    25% {
+      background-image: url('ww6-2.jpg');
+    }
+    50% {
+      background-image: url('ww6-3.jpg');
+    }
+    75% {
+      background-image: url('ww6-4.jpg');
+    }
+    100% {
+      background-image: url('ww6.jpg');
+    }
+  }
+
+  .ww7 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww7.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww7:hover {
+    animation: image-animation-7 6s infinite;
+  }
+  
+  @keyframes image-animation-7 {
+    0% {
+      background-image: url('ww7.jpg');
+    }
+    25% {
+      background-image: url('ww7-2.jpg');
+    }
+    50% {
+      background-image: url('ww7-3.jpg');
+    }
+    75% {
+      background-image: url('ww7-4.jpg');
+    }
+    100% {
+      background-image: url('ww7.jpg');
+    }
+  }
+
+
+  .ww8 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('ww8.jpg');
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .ww8:hover {
+    animation: image-animation-8 6s infinite;
+  }
+  
+  @keyframes image-animation-8 {
+    0% {
+      background-image: url('ww8.jpg');
+    }
+    25% {
+      background-image: url('ww8-2.jpg');
+    }
+    50% {
+      background-image: url('ww8-3.jpg');
+    }
+    75% {
+      background-image: url('ww8-4.jpg');
+    }
+    100% {
+      background-image: url('ww8.jpg');
+    }
+  }
+
+

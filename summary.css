@@ -1,0 +1,33 @@
+
+.title{
+
+	text-align: center;
+    font-style: italic;
+    color: white;
+}
+ .sum{
+	border-style: double;
+	border-color: white;
+    color:aliceblue;
+     font-size: 20px;
+	
+}
+body,html
+{
+    margin:0;
+    padding:0;
+    height: 120%; 
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: DWFutura,sans-serif;
+    
+    /* font: 400 15px/1.8 "Lato", sans-serif; */
+
+
+}
+h4{
+    font-weight: bold;
+    text-align: left;
+
+}
